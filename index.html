@@ -26,6 +26,11 @@
       });
     } );
     </script>
+    <script>
+      $( function() {
+        $( "#datepicker" ).datepicker();
+      } );
+      </script>
 </head>
 
 <body>
@@ -43,7 +48,7 @@
         <label for="title">Task Title:</label><br>
         <input type="text" id="ttitle" value=""><br><br>
         <label for="due">Task Due Date:</label><br>
-        <input type="text" id="tdue" value=""><br><br>
+        <p></p><input type="text" id="datepicker"></p>
         <label for="desc">Task Description:</label><br>
         <textarea id="tdesc" rows="4" cols="30"></textarea>
       </form>
