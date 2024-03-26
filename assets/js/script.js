@@ -65,3 +65,9 @@ function handleDrop(event, ui) {
 $(document).ready(function () {
     modal.addEventListener('click', createTaskCard)
 });
+
+
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  
